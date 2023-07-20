@@ -1,7 +1,7 @@
 
 
 $(".drum").each(function(){
-  this.addEventListener("click", function(){
+  $(this).on("click", function(){
     var buttonInnerHTML = this.innerHTML;
     makeSound(buttonInnerHTML);
     buttonAnimation(buttonInnerHTML);
@@ -63,10 +63,10 @@ function buttonAnimation(currentKey) {
 
   var activeButton = $("." + currentKey);
 
-  activeButton.classList.add("pressed");
+  activeButton.addClass("pressed");
 
   setTimeout(function() {
-    activeButton.classList.remove("pressed");
+    activeButton.removeClass("pressed");
   }, 100);
 
 }
