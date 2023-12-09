@@ -24,7 +24,6 @@ A responsive drum kit simulator created using HTML, CSS, and JavaScript.
 1. Clone the repository:
 
 git clone https://github.com/minhnguyen1408/drum-kit-simulator.git
-
 cd drum-kit-simulator
 
 2. Open the index.html file in your preferred web browser.
