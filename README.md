@@ -12,7 +12,7 @@ A responsive drum kit simulator created using HTML, CSS, and JavaScript.
 
 ## Demo
 
-[Live Demo]
+[Live Demo](drum-kit-simulator.vercel.app)
 
 ## Features
 
